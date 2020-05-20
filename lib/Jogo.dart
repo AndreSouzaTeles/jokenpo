@@ -9,8 +9,8 @@ class Jogo extends StatefulWidget {
 
 class _JogoState extends State<Jogo> {
   var _imagemApp = AssetImage("images/padrao.png");
-  var _mensagem = "Sua vez!!! Escolha uma opção abaixo: ";
-  var _mensagemResultado = "SERA QUE CONSEGUE GANHAR??";
+  var _mensagem = "Sua vez!!! Escolha uma opção abaixo:";
+  var _mensagemResultado = "SERÁ QUE CONSEGUE GANHAR??";
 
   void _opcaoSelecionada(String escolhaUsuario) {
     var opcoes = ["pedra", "papel", "tesoura"];
