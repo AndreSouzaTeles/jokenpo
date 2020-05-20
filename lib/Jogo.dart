@@ -17,9 +17,6 @@ class _JogoState extends State<Jogo> {
     var numero = Random().nextInt(3);
     var escolhaApp = opcoes[numero];
 
-    print("Opção selecionada " + escolhaApp);
-    print("Escolha do usuario: " + escolhaUsuario);
-
     switch (escolhaApp) {
       case "pedra":
         setState(() {
